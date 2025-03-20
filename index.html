@@ -15,13 +15,16 @@
     @theme {
       --color-clifford: #da373d;
     }
+    .manope{
+        font-family: "Manrope", sans-serif;
+    }
   </style>
 </head>
 <body>
     <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
-        <header class="flex pt-10 mb-20 place-content-between">
+        <header class="lg:flex lg:gap-10 pt-10 mb-20 place-content-between">
             <!-- text content -->
-             <div>
+             <div class="mb-20">
                 <h1 class="text-4xl md:text-7xl">It's good <br> 
                     tea time at The <br>
                      Tea House
@@ -33,7 +36,7 @@
             <div class="relative">
                 <img class="w-full" src="images/banner.png" alt="">
                 <div class="flex place-items-center gap-5 text-xl   md:px-8 md:py-4 lg:py-4 bg-[#FFFFFF] drop-shadow-lg rounded-lg place-content-center
-                 px-3 py-2 top-39  absolute md:top-68 lg:left-10 lg:top-79 
+                  px-5  top-30  absolute md:top-88 md:left-20 lg:left-10 lg:top-79 
                 ">
 
                     <!-- card -->
@@ -43,8 +46,8 @@
                      </div>
                      <div>
                         <!-- text -->
-                         <h2 class="font-bold text-3xl mx:text-2xl ">5.00</h2>
-                         <p class="text-[#777777]">Trust Pilot Ratings</p>
+                         <h2 class=" text-xl font-bold text-3xl mx:text-2xl ">5.00</h2>
+                         <p class=" text-[#777777]">Trust Pilot Ratings</p>
                      </div>
                 </div>
             </div>
@@ -58,9 +61,29 @@
                  <h1 class="text-[#1C1C1C] font-bold text-3xl md:text-4xl mb-5">Our Featured Products</h1>
                  <p class="text-[#777777] max-w-xl mx-auto md:max-w-3xl ">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
             </div>
-          <!-- card -->
-           <div>
-            <div></div>
+          <!-- product card -->
+           <div class="grid place-content-center  gap-5   text-center md:grid md:grid-cols-2 md:place-items-center md:gap-8  lg:grid-cols-4 lg:gap-30 ">
+                <!-- card -->
+                <div class="overflow-hidden w-66 h-97 rounded-lg drop-shadow-lg  bg-linear-to-r from-[#F4F4F4] to-[#F4F4F4]">
+                    <img class="mx-auto pt-4" src="images/tea-1.png" alt="">
+                    <h2 class="manope text-4xl mt-4 font-bold">Milk Tea</h2>
+                    <p class="text-[#777777] mt-4">Creamer could be replaced <br> by fresh milk</p>
+                </div>
+                <div class="overflow-hidden w-66 h-97 rounded-lg drop-shadow-lg  bg-linear-to-r from-[#F4F4F4] to-[#F4F4F4]">
+                    <img class="mx-auto pt-4" src="images/tea-2.png" alt="">
+                    <h2 class="manope text-4xl mt-4 font-bold">Milk Tea</h2>
+                    <p class="text-[#777777] mt-4">Creamer could be replaced <br> by fresh milk</p>
+                </div>
+                <div class="overflow-hidden w-66 h-97 rounded-lg drop-shadow-lg  bg-linear-to-r from-[#F4F4F4] to-[#F4F4F4]">
+                    <img class="mx-auto pt-4" src="images/tea-3.png" alt="">
+                    <h2 class="manope text-4xl mt-4 font-bold">Milk Tea</h2>
+                    <p class="text-[#777777] mt-4">Creamer could be replaced <br> by fresh milk</p>
+                </div>
+                <div class="overflow-hidden w-66 h-97 rounded-lg drop-shadow-lg  bg-linear-to-r from-[#F4F4F4] to-[#F4F4F4]">
+                    <img class="mx-auto pt-4" src="images/tea-4.png" alt="">
+                    <h2 class="manope text-4xl mt-4 font-bold">Milk Tea</h2>
+                    <p class="text-[#777777] mt-4">Creamer could be replaced <br> by fresh milk</p>
+                </div>
            </div>
          </section>
     </main>
